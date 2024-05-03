@@ -72,6 +72,12 @@ h1{
     margin-right: 20px;
 }
 
+.download::before{
+    content: "\2193";
+    margin-right: 10px;
+    font-size: 20px;
+}
+
 .header-section .open{
     background-color: black;
     color: #fff;
@@ -146,6 +152,13 @@ h1{
 
 .video .skye{
     background-color: #8EA1E1;
+    color: #fff;
+}
+
+.skye::before{
+    content: "\2193";
+    margin-right: 10px;
+    font-size: 20px;
 }
 
 /* css del footer */
@@ -155,8 +168,6 @@ h1{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-   
-    /* DEBUG */
     background-color: #23272A;
     height: 500px;
 }
@@ -172,30 +183,46 @@ h1{
 }
 
 li:first-child{
-    color: #8EA1E1;
-
+    color: #7289DB;
 }
 
-.col-pink{
-    margin-top: 30px;
+.first-col{
     width: 22%;
+}
+
+.first-col h3{
+    font-size: 30px;
+    color: #7289DB;
+    margin-bottom: 20px;
+}
+
+.first-col img{
+    height: 10px;
+}
+
+i{
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
 }
 
 footer nav{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    
-    /* DEBUG */
     background-color: #23272A;
-    height: 100px;
 }
 
 .footer-nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 70%;
-    padding-top: 30px;
+    width: 70%;
+    padding: 30px 0px;
     border-top: 1px solid gray;
+}
+
+.footer-nav .button-link{
+    background-color: #8EA1E1;
+    color: #fff;
 }

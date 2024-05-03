@@ -30,8 +30,6 @@ header nav {
     align-items: center;
     justify-content: center;
     min-height: 50px;
-    /* DEBUG */
-    /* background-color: aqua; */
 }
     
 .header-nav{
@@ -39,8 +37,6 @@ header nav {
     justify-content: space-between;
     align-items: center;
     min-width: 70%;
-    /* DEBUG */
-    /* background-color: orange; */
 }
 
 nav ul {
@@ -48,9 +44,7 @@ nav ul {
     justify-content: space-around;
     list-style-type: none;
     align-items: center;
-    width: 60%;
-    /* DEBUG */
-    /* border: 1px solid black; */
+    width: 60%;   
 }
 
 a{
@@ -63,12 +57,6 @@ a{
     text-align: center;
     width: 40%;
     height: 300px;
-}
-
-.header-section div{
-    /* DEBUG */
-    /* background-color: rgb(219, 54, 248); */
-    /* min-height: 300px; */
 }
 
 h1{
@@ -90,39 +78,51 @@ h1{
     color: #fff;
 }
 
+.open-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+
+}
+
 /* regole css main */
 
 .flex-section{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* DEBUG */
-    min-height: 500px;
+    padding: 100px 0px;
 }
 
 .white-section{
-    /* DEBUG */
-    background-color: white;
+    background-color: #fff;
 }
 
 .gray-section {
-    /* DEBUG */
-    background-color: gray;
+    background-color: #F6F6F6;
 }
 
-.blue{
-    /* DEBUG */
-    /* background-color: rgb(73, 135, 216);
-    min-height: 400px;
-    min-width: 40%; */
+.item{
+    width: 40%;
 }
 
-.pink{
-    /* DEBUG */
-    background-color: pink;
-    min-height: 400px;
-    min-width: 30%;
+.text{
+    text-align: left;
+    color: black;
+    width: 30%;
 }
+
+.text h2{
+    font-size: 40px;
+}
+
+.text p{
+    margin-top: 20px;
+    line-height: 20px;
+}
+    
+
 
 .green{
     /* DEBUG */

@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole css header */
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 50px;
+}
+    
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    min-width: 70%;
+    background-color: orange;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    /* DEBUG */
+    width: 40%;
+    border: 1px solid black;
+}
+
+
+.header-section{
+    /* DEBUG */
+    background-color: blue;
+    min-height: 400px;
+}
+
+.header-section div{
+    /* DEBUG */
+    background-color: rgb(219, 54, 248);
+    min-height: 300px;
+    min-width: 700px;
+}
+
+/* regole css main */
+
+.flex-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* DEBUG */
+    min-height: 500px;
+}
+
+.white-section{
+    /* DEBUG */
+    background-color: white;
+}
+
+.gray-section {
+    /* DEBUG */
+    background-color: gray;
+}
+
+.blue{
+    /* DEBUG */
+    background-color: rgb(73, 135, 216);
+    min-height: 400px;
+    min-width: 40%;
+}
+
+.pink{
+    /* DEBUG */
+    background-color: pink;
+    min-height: 400px;
+    min-width: 30%;
+}
+
+.green{
+    /* DEBUG */
+    background-color: green;
+    min-height: 700px;
+    min-width: 70%;
+}
+
+/* css del footer */
+
+.footer-section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 2px solid gray;
+    /* DEBUG */
+    background-color: black;
+    height: 500px;
+}
+
+.col{
+    /* DEBUG */
+    min-height: 400px;
+    min-width: 12%;
+    background-color: aquamarine;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.col-pink{
+    /* DEBUG */
+    margin-top: 10px;
+    min-height: 400px;
+    min-width: 22%;
+    background-color: rgb(255, 127, 244);
+    border: 1px solid black;
+}
+
+footer nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* DEBUG */
+    background-color: black;
+    height: 100px;
+}
+
+.footer-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 50px;
+    min-width: 70%;
+}
+
+.footer-logo, .footer-button{
+    /* DEBUG */
+    background-color: pink;
+}
+

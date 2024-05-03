@@ -29,14 +29,14 @@ header nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 50px;
+    min-height: 70px;
 }
     
 .header-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-width: 70%;
+    width: 70%;
 }
 
 nav ul {
@@ -51,7 +51,6 @@ a{
     text-decoration: none;
     color: #fff;
 }
-
 
 .header-section{
     text-align: center;
@@ -92,6 +91,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 80px;
     padding: 100px 0px;
 }
 
@@ -104,13 +104,13 @@ h1{
 }
 
 .item{
-    width: 40%;
+    width: 50%;
 }
 
 .text{
     text-align: left;
     color: black;
-    width: 30%;
+    width: 20%;
 }
 
 .text h2{
@@ -119,16 +119,33 @@ h1{
 
 .text p{
     margin-top: 20px;
-    line-height: 20px;
+    line-height: 30px;
 }
     
+.video{
+    text-align: center;
+    width: 60%;
+    color: black;
+}
 
+.video h2{
+    font-size: 40px;
+}
 
-.green{
-    /* DEBUG */
-    background-color: green;
-    min-height: 700px;
-    min-width: 70%;
+.video p{
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.video h4{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.video .skye{
+    background-color: #8EA1E1;
 }
 
 /* css del footer */

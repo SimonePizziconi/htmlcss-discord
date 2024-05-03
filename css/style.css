@@ -4,46 +4,90 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+}
+
+.button-link{
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: black;
+}
+
 /* regole css header */
+
+header{
+    background-image: url(../img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 header nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* DEBUG */
-    background-color: aqua;
     min-height: 50px;
+    /* DEBUG */
+    /* background-color: aqua; */
 }
     
 .header-nav{
     display: flex;
     justify-content: space-between;
-    /* DEBUG */
+    align-items: center;
     min-width: 70%;
-    background-color: orange;
+    /* DEBUG */
+    /* background-color: orange; */
 }
 
 nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
+    align-items: center;
+    width: 60%;
     /* DEBUG */
-    width: 40%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
 }
 
 
 .header-section{
-    /* DEBUG */
-    background-color: blue;
-    min-height: 400px;
+    text-align: center;
+    width: 40%;
+    height: 300px;
 }
 
 .header-section div{
     /* DEBUG */
-    background-color: rgb(219, 54, 248);
-    min-height: 300px;
-    min-width: 700px;
+    /* background-color: rgb(219, 54, 248); */
+    /* min-height: 300px; */
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.header-section p{
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.header-section .download{
+    margin-right: 20px;
+}
+
+.header-section .open{
+    background-color: black;
+    color: #fff;
 }
 
 /* regole css main */
@@ -68,9 +112,9 @@ nav ul {
 
 .blue{
     /* DEBUG */
-    background-color: rgb(73, 135, 216);
+    /* background-color: rgb(73, 135, 216);
     min-height: 400px;
-    min-width: 40%;
+    min-width: 40%; */
 }
 
 .pink{
